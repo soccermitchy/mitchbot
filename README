@@ -8,3 +8,7 @@ cp config.* config.lua
 nano config.lua # edit the config!
 
 Running: lua main.lua
+
+
+
+Originally ophal/botphal, this contains several features not available in the original repo. I am too lazy to figure out what the new ones are, though.
