@@ -10,7 +10,7 @@ function lua(usr,chan,msg,args)
         if err then return target,usr.nick..": "..err end
         local asdf,ret=pcall(func) asdf=nil
         ret = tostring(ret) or "No output"
-        return target,usr.nick..": "..ret 
+        return target,usr.nick..": "..ret :gsub("\n","\\n"):gsub("\r","\\r")
 end 
 function jumpOffACliff(usr,chan,msg,args,netname)
 	networks[netname]:send("QUIT :My owner told me to jump off a cliff >:O")
