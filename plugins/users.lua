@@ -2,9 +2,11 @@
 function hash(pass,salt)
 	if not salt then 
 		salt=""
+		math.randomseed(os.time())
 		for i=1,math.random(0,5) do
 			salt=salt..string.char(math.random(65,122))
 			sleep(1)
+			math.randomseed(os.time())
 		end
 	end
 	hashed=sha256.hash256(pass..salt)
