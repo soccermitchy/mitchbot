@@ -9,19 +9,31 @@
 --  config.autorun: *RAW* commands to send to the IRC server before joining channels. If this is :::SLEEP:::(sec)::: then we will wait <sec> seconds before continuing.
 --	config.channels: Channel names to join.
 --	config.cmdchar: Command character to use
-]]-
-config.server="asdf.asdf.asdf"
-config.port=6697
-config.servername="asdf"
-config.nickname="AsdfBot"
-config.username=config.nickname
-config.realname="I'm a bot named "..config.nickname
-config.autorun={
-	"ns identify asdfasdfasdf asdfasdfasdf",
-	":::SLEEP:::10:::", -- Sleeps for 10 seconds.
-	"DO SHIT HERE"
-}
-config.channels={
-	"#something",
+]]
+config.networks={
+    freenode={
+        server="irc.freenode.net",
+        port=6667,
+        nickname="MitchBot",
+        username="MitchBot",
+        realname="hi",
+        autorun={
+            "someshit"
+        },
+        channels={
+        }
+    },
+    obsidian={
+        server="irc.obsidianirc.net",
+        port=6667,
+        nickname="MitchBot",
+        username="MitchBot",
+        realname="hi",
+        autorun={
+					"someshit"
+				},
+        channels={
+        }
+   }
 }
 config.cmdchar="<"
