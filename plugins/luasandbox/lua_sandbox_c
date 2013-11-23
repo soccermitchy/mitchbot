@@ -1,0 +1,2 @@
+local sandbox=require"luasandbox"
+local output=sandbox("--init code","print'sandboxed code'")
