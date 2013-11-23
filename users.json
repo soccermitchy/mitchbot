@@ -1,0 +1,62 @@
+{
+     "HelenaKitty": {
+                            "name": "HelenaKitty",
+                        "password": "bd76ae8563d942ff4d3018f2b7001e8918ec114938e0782430b9ed81a1b8c3ce",
+                           "perms": {
+                                        "": true
+                                    },
+                            "salt": "WnouL"
+                    },
+       "Stary2001": {
+                            "name": "Stary2001",
+                        "password": "acf2aadc769ddcd55353771084e4c07dec1e42f90ef5d0b7bc52aa89a3601e6a",
+                           "perms": {
+                                        "": true,
+					"trusted": true,
+					"owner": true
+                                    },
+                            "salt": "WnouL"
+                    },
+        "afhastha": {
+                        "password": "9088da26077da10b0b0d84a25954deb850a705af5c2f10fe16712e756aaaf8bf",
+                           "perms": {
+                                        "user": true
+                                    },
+                            "salt": "WnouLTmQa"
+                    },
+        "develCuy": {
+                            "name": "develCuy",
+                        "password": "5496d070ca1e5cdf5c23982ea12507ef2aedff68eaded725c9e3f7b75189b0c5",
+                           "perms": {
+                                               "": true,
+                                        "trusted": true
+                                    },
+                            "salt": "WnouLTmQa"
+                    },
+          "jacob1": {
+                            "name": "jacob1",
+                        "password": "6a0e2fdcba6de6580f7e86f194c2638aa47e0803eabf7d38c7abf84b5c073ad1",
+                           "perms": {
+                                        "": true
+                                    },
+                            "salt": "JXHGzM^q"
+                    },
+            "poop": {
+                            "name": "poop",
+                        "password": "1fc326ad49beb986c7c594e9ad788099d127cd956ff98124e1a2a74b1338a9f4",
+                           "perms": {
+                                               "": true,
+                                        "trusted": true
+                                    },
+                            "salt": "WnouLTmQa"
+                    },
+    "wolfmitchell": {
+                            "name": "wolfmitchell",
+                        "password": "1ad555fbb1a12cb387bc7bf34cf931e38c9cd4c66a805b6f206c651f1b07a9c1",
+                           "perms": {
+                                             "": true,
+                                        "owner": true
+                                    },
+                            "salt": "WnouL"
+                    }
+}
