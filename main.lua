@@ -1,7 +1,4 @@
 require"irc.init"
-require"remdebug.engine"
-remdebug.engine.start()
-
 config={}
 dofile("config.lua")
 json=dofile("json.lua")
